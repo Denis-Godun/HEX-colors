@@ -69,3 +69,24 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
 }
+
+.instruction {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 300px;
+}
+
+.color_info {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 200px;
+}
+
+.button {
+  margin-top: 100px;
+  margin-left: 47%;
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  border-radius: 15%;
+}
