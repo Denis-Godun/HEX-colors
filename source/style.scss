@@ -1,5 +1,7 @@
 @import 'zerostyle.scss';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
+body{font-family: 'Comfortaa', cursive;}
 .instruction{
     text-align: center;
     font-size: 30px;
@@ -13,9 +15,37 @@
 .button{
    margin-top: 100px;
    margin-left: 47%;
-  background-color: red;
+  background-color: F8F9FA;
   width: 100px;
   height: 40px;
   border-radius: 15%;
 
+}
+h1, h2{
+    animation: colorchange 5s infinite alternate; 
+}
+@keyframes colorchange {
+    0% {
+        color: #ffffff;
+      }
+      
+      20% {
+        color: #cccccc;
+      }
+      
+      40% {
+        color: #999999;
+      }
+      
+      60% {
+        color: #666666;
+      }
+      
+      80% {
+        color: #333333;
+      }
+      
+      100% {
+        color: #ffffff;
+      }  
 }
