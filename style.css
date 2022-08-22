@@ -96,7 +96,8 @@ body {
   border-radius: 15%;
 }
 
-h1, h2 {
+h1,
+h2 {
   -webkit-animation: colorchange 5s infinite alternate;
           animation: colorchange 5s infinite alternate;
 }
